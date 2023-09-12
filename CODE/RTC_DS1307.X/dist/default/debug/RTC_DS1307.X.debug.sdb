@@ -1,0 +1,161 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F887 ]
+[d frameptr 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 C:\Program Files\Microchip\xc8\v2.41\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"45 C:\Users\DELL\Videos\manfree\c++\pic16f887\RTC_DS1307.X\DS_1307_I2C.c
+[v _main main `(i  1 e 2 0 ]
+"86
+[v _puls puls `(v  1 e 1 0 ]
+"93
+[v _cmd cmd `(v  1 e 1 0 ]
+"99
+[v _display display `(v  1 e 1 0 ]
+"110
+[v _i2c_ins i2c_ins `(v  1 e 1 0 ]
+"121
+[v _i2c_st i2c_st `(v  1 e 1 0 ]
+"127
+[v _i2c_restart i2c_restart `(v  1 e 1 0 ]
+"132
+[v _i2c_write i2c_write `(v  1 e 1 0 ]
+"138
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+"150
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+"156
+[v _conv conv `(v  1 e 1 0 ]
+"290 C:/Program Files/Microchip/MPLABX/v6.10/packs/Microchip/PIC16Fxxx_DFP/1.4.149/xc8\pic\include\proc\pic16f887.h
+[v _PORTC PORTC `VEuc  1 e 1 @7 ]
+"352
+[v _PORTD PORTD `VEuc  1 e 1 @8 ]
+"414
+[v _PORTE PORTE `VEuc  1 e 1 @9 ]
+"843
+[v _SSPBUF SSPBUF `VEuc  1 e 1 @19 ]
+"850
+[v _SSPCON SSPCON `VEuc  1 e 1 @20 ]
+"1540
+[v _TRISC TRISC `VEuc  1 e 1 @135 ]
+"1602
+[v _TRISD TRISD `VEuc  1 e 1 @136 ]
+"1664
+[v _TRISE TRISE `VEuc  1 e 1 @137 ]
+"1979
+[v _SSPCON2 SSPCON2 `VEuc  1 e 1 @145 ]
+"2177
+[v _SSPSTAT SSPSTAT `VEuc  1 e 1 @148 ]
+"3387
+[v _ANSEL ANSEL `VEuc  1 e 1 @392 ]
+"3449
+[v _ANSELH ANSELH `VEuc  1 e 1 @393 ]
+"3567
+[v _ACKDT ACKDT `VEb  1 e 0 @1165 ]
+"3570
+[v _ACKEN ACKEN `VEb  1 e 0 @1164 ]
+"3573
+[v _ACKSTAT ACKSTAT `VEb  1 e 0 @1166 ]
+"3645
+[v _BF BF `VEb  1 e 0 @1184 ]
+"4047
+[v _PEN PEN `VEb  1 e 0 @1162 ]
+"4170
+[v _RCEN RCEN `VEb  1 e 0 @1163 ]
+"4209
+[v _RE0 RE0 `VEb  1 e 0 @72 ]
+"4212
+[v _RE1 RE1 `VEb  1 e 0 @73 ]
+"4230
+[v _RSEN RSEN `VEb  1 e 0 @1161 ]
+"4254
+[v _SEN SEN `VEb  1 e 0 @1160 ]
+"4281
+[v _SSPIF SSPIF `VEb  1 e 0 @99 ]
+"4296
+[v _SSPOV SSPOV `VEb  1 e 0 @166 ]
+"45 C:\Users\DELL\Videos\manfree\c++\pic16f887\RTC_DS1307.X\DS_1307_I2C.c
+[v _main main `(i  1 e 2 0 ]
+{
+"66
+[v main@i i `i  1 a 2 20 ]
+"47
+[v main@data data `[20]uc  1 a 20 0 ]
+"85
+} 0
+"132
+[v _i2c_write i2c_write `(v  1 e 1 0 ]
+{
+[v i2c_write@data data `uc  1 a 1 wreg ]
+[v i2c_write@data data `uc  1 a 1 wreg ]
+"134
+[v i2c_write@data data `uc  1 a 1 0 ]
+"137
+} 0
+"150
+[v _i2c_stop i2c_stop `(v  1 e 1 0 ]
+{
+"154
+} 0
+"121
+[v _i2c_st i2c_st `(v  1 e 1 0 ]
+{
+"125
+} 0
+"127
+[v _i2c_restart i2c_restart `(v  1 e 1 0 ]
+{
+"131
+} 0
+"138
+[v _i2c_read i2c_read `(uc  1 e 1 0 ]
+{
+"140
+[v i2c_read@data data `i  1 a 2 2 ]
+"149
+} 0
+"110
+[v _i2c_ins i2c_ins `(v  1 e 1 0 ]
+{
+"115
+} 0
+"156
+[v _conv conv `(v  1 e 1 0 ]
+{
+[v conv@i i `*.4uc  1 a 1 wreg ]
+[v conv@i i `*.4uc  1 a 1 wreg ]
+"158
+[v conv@i i `*.4uc  1 a 1 5 ]
+"186
+} 0
+"99
+[v _display display `(v  1 e 1 0 ]
+{
+[v display@data data `uc  1 a 1 wreg ]
+[v display@data data `uc  1 a 1 wreg ]
+"101
+[v display@data data `uc  1 a 1 3 ]
+"102
+} 0
+"93
+[v _cmd cmd `(v  1 e 1 0 ]
+{
+[v cmd@command command `uc  1 a 1 wreg ]
+[v cmd@command command `uc  1 a 1 wreg ]
+[v cmd@data data `uc  1 p 1 1 ]
+"95
+[v cmd@command command `uc  1 a 1 2 ]
+"98
+} 0
+"86
+[v _puls puls `(v  1 e 1 0 ]
+{
+"92
+} 0
